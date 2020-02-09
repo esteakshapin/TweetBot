@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Home | </title>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-color:cornsilk;
+  color: black; 
+  border: 2px solid #008CBA;
+  position:absolute;
+  left:550px;
+  top:300px;
+}
+
+.button1:hover {
+  background-color:#00adb5;
+  color: white;
+}
+
+.button2 {
+  background-color:cornsilk;
+  color: black; 
+  border: 2px solid #008CBA;
+  position:absolute;
+  left:670px;
+  top:300px;
+}
+
+.button2:hover {
+  background-color:#00adb5;
+  color: white;
+}
+
+.button3 {
+  background-color:cornsilk;
+  color: black; 
+  border: 2px solid #008CBA;
+  position:absolute;
+  left:800px;
+  top:300px;
+}
+
+.button3:hover {
+  background-color:#00adb5;
+  color: white;
+}
+
+h1 {
+    color: #00adb5;
+    font-size: 100px;
+    text-align: center;
+    position:absolute;
+    top:115px;
+    left: 510px;
+}
+
+body {
+    background-image: url( {{ url_for('static', filename='img/background.png') }})
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+<div></div>
+<h1>TweetBox</h1>
+
+<button id="startGameButton" class="button button1" type="button" onClick="location.href='game'">Play</button>
+<button id="" class="button button2" type="button" >Learn</button>
+<button id="" class="button button3" type="button">Film</button>
+
+
+</body>
+</html>

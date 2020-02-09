@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game | </title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}">
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+
+  </head>
+  <body>
+    <button class="button button1">Menu</button>
+    <h1>Game</h1>
+
+    {% if startScreen %}
+
+      <button type="button" id='startGameButton'>Start Game</button>
+
+    {% endif %}
+
+    {% if playScreen %}
+      <div class="container">
+      <div id="div1">
+
+      <h2>how to play</h2>
+
+          </div>
+          <div id="div2"></div>
+          <div id="div3">'
+
+              <h2>score</h2>
+          </div>
+        </div>
+
+      <button type="button" name="fake_news_button">Fake News</button>
+      <div size="40%" style="background-color"></div>
+      <button type="button" name="real_news_button">Real News</button>
+    
+    {% endif %}
+  </body>
+</html>

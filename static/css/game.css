@@ -1,0 +1,66 @@
+.tweets{
+  width: 40%;
+  height: 80%;
+  background-color: green;
+}
+html,body{
+  background-color: blue;
+}
+.container { 
+  width:100%;
+}
+
+.button {
+  background-color: #EEEEEE;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+    background-color: #EEEEEE;
+  color: black; 
+  border: 2px solid #008CBA;
+
+}
+
+
+.button1:hover {
+  background-color:#00adb5;
+color: #EEEEEE;
+}
+
+
+#div1 {
+  height: 50px;
+  background: red;
+  display: inline-block;
+  width:27%;
+  margin-right:-4px;
+}
+
+
+#div2 {
+  height: 50px;
+  background: royalblue;
+  display: inline-block;
+  width:46%;
+  margin-right:-4px;
+}
+
+
+#div3 {
+  height: 50px;
+  background: red;
+  display: inline-block;
+  width:27%;
+  margin-right:-4px;
+}
