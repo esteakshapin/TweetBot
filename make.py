@@ -16,7 +16,7 @@ import markovify
 j = "\n".join(txt)
 markov = markovify.Newlinetxt(j)
 from random import random, choice
-def mt():
+def m():
     tweet = {"txt": None, "rtw": None, "fv": None, "ir?": None, "date": None}
     from datetime import datetime
     if(random() > 0.7):

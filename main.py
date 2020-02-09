@@ -1,6 +1,7 @@
 from flask import Flask, render_template, session
 import json
-from make import m
+from make import make
+m()
 app = Flask(__name__, static_folder='./static', template_folder='./templates')
 startScreenBool = True
 playScreenBool = False
